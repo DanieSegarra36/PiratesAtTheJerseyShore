@@ -55,7 +55,7 @@ for url in JSSeasonLinks:
     # file.write("#!/bin/bash\n\n")
     for link in links:
       file.write(
-        f"yt-dlp https://www.mtv.com{link} --concat-playlist always\n")
+        f"https://www.mtv.com{link}\n")
     file.write("\n")
 
   # Print the status
